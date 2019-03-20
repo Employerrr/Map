@@ -1,6 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script>
+    $(document).ready(function(){
+
+$(".logo").mouseenter(function(){
+  $(".det-logo").fadeIn(200);
+});
+$(".logo").mouseleave(function()
+{
+  $(".det-logo").fadeOut(200,function(){
+    $(".det-logo").hide();
+  });
+});
+});
+    </script>
     <title></title>
   </head>
   <body>

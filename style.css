@@ -1,0 +1,59 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+.navbar{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  float: right;
+}
+.navbar div{
+  margin: 0 95px;
+}
+.navbar div a{
+  float: left;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  display: inline-block;
+  transition: ease-out .2s;
+}
+.navbar div p{
+  position: absolute;
+  margin: 0;
+  top: 17px;
+ left: 10px;
+ font-size: 20px;
+  font-family:'ZCOOL QingKe HuangYou', cursive;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  cursor: pointer;
+  transition: ease-out .2s;
+}
+.navbar div p:hover{
+  color: orange;
+    text-shadow: 2px 2px 10px rgba(255, 170, 0, 0.7);
+}
+.navbar div a:hover{
+  background-color: rgba(0, 0, 0, 0.7);
+  color: orange;
+}
+.det-logo{
+  user-select: none;
+  opacity: 1;
+width: 200px;
+height: 30px;
+position: absolute;
+top: 60px;
+left: -60px;
+border: 1px solid orange;
+border-radius: 8px;
+color: orange;
+background-color: rgba(0,0,0,0.3);
+text-align: center;
+box-shadow: 0px 0px 15px 0px rgba(255, 170, 0, 0.7);
+text-shadow: 1px 1px 5px black;
+display: none;
+}
